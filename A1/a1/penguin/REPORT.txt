@@ -1,0 +1,33 @@
+The penguin is consist of three level:
+The first level is the body, which is the base of this penguin. The colour of the body is green, and it is a hexagon. It was scaled by (BODY_WIDTH, BODY_LENGTH, 1.0)
+
+The second level is the head, leg, arm and foot.
+The colour of the head is white, and it is a pentagon. When I drew it, I translate it by (0,160,0) and scaled it by body size.
+
+The colour of arm is red, and it is a trapezoid. When I drew it, I translate it by 
+(15,100,0) and scaled it by (4.0,4.0,1.0).
+
+The colour of legs are red, and they are rectangle. When I drew them, I translate them by (40,-14,0) and (-40,-14,0), and scaled them by arm size.
+
+The colour of feet are yellow, and they are quadrilateral. When I drew them, I translate them by (0,-40,0) and scaled them by arm size.
+
+The third level is the mouth, eyes and joints
+The colour of mouth are yellow, they are rectangle and triangle. When I drew them, I 
+scaled them by (10.0, 10.0, 0.0).
+
+The colour of eyes are white and black, they are both circle. When I drew the hollow 
+circle, I translate it by (-18, 30, 0.0) and scaled it by (5.0,5.0,0). When I drew the solid circle, I translate it by (-20, 30, 0.0) and scaled it by (3.0,3.0,0). 
+
+The colour of the joints are blue, they are both circle. When I drew them, I scaled them by (4.0, 4.0, 0.0)
+
+Animate:
+When people click the checkbox, all the parts will begin to move
+Body: body will move up and down at different speed.
+Arm: arm will begin to rotate at min degree -45 and max degree 45.
+Head: head will begin to rotate at min degree -5 and max degree 5.
+Mouth: mouth will move up and down at a constant speed(10.0f).
+leg: leg will begin to rotate at min degree -45 and max degree 45.
+feet: feet will begin to rotate at min degree -90 and max degree 0, and feet have init 
+degree, which are -30 and -50 separately.
+Each part of the penguin can move independently, people can stop animate by click checkbox
+again and enter the new degree for each part of the penguin. 

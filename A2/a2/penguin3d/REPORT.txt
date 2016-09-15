@@ -1,0 +1,41 @@
+The penguin is consist of three level:
+The first level is the body, which is the base of this penguin. 
+The surface of body consists of two trapezoids and four rectangles. 
+The second level consists of leg, arm, and head.
+The surface of head consists of two trapezoids and four rectangles. 
+The surface of arm consists of two trapezoids, two rectangles and four squares. 
+The surface of leg consists of six rectangles. 
+The second level is the beak, knee and elbow.
+The surface of knee consists of two triangles and three rectangles. 
+The surface of elbow consists of four triangles and two squares.
+The surface of beak consists of six rectangles
+
+All parts of the penguin are 3D models. they have their own DoF, people can move and rotate them by change the value in the checkbox
+with different render style, penguin will be displayed in different style.
+
+The penguin has 25 DOFs
+6 DOFs:The penguin can move along x,y and z axis, it also can rotate around x,y and z axis
+
+2 DOFs: The head can turn around in [-180, 180], and the beak will move if people set value for the beak
+
+8 DOF: The penguin has two arms with two elbows, both of the arms can rotate around pitch, yaw and roll axis, and two elbows can rotate around pitch axis
+
+8 DOF: The penguin has two legs with two knees, both of the legs can rotate around pitch, yaw and roll axis, and two knees can rotate around pitch axis
+
+1 DOF: The light can move in x-y plane, the domain of light will be (-PI,PI),people can set the position of the light by change the value of light
+
+Render Style:
+The penguin has 5 render styles.
+If people choose the wireflame style, the penguin will be drawn by solid lines.
+
+If people choose the solid style, the penguin will be filled by different colour.
+
+If people choose the solid with outlines, the penguin will consist of solid and wireflame
+
+if people choose Matte, the light will turn on, the material is white plastic, some part of the penguin will be dark ans some part of the penguin will be bright
+
+if people choose Metallic, the light will turn on, the material is bronze, some part of the penguin will be dark ans some part of the penguin will be bright
+ 
+keyframe update:
+people can set what penguin looks like in a specific keyframe and time, by click updatekeyframe and save_to_file, the penguin will be save in the file, and it can move from original
+state if people click the start/stop animation buttom
